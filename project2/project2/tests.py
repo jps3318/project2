@@ -1,9 +1,15 @@
+"""
+    This is a test.
+"""
 import unittest
 
 from pyramid import testing
 
 
 class ViewTests(unittest.TestCase):
+    """
+        This is a test class.
+    """
     def setUp(self):
         self.config = testing.setUp()
 
